@@ -43,7 +43,6 @@ export default function Products() {
     const updateCart = (id, count) => {
         // Despacha a ação para atualizar a contagem do produto no carrinho
         dispatch(updateCount(id, count));
-        console.log("Produto adicionado ao carrinho", products);
     };
 
     return (

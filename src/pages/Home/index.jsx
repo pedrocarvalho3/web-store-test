@@ -1,5 +1,5 @@
 import { Box, Container } from "@mui/material";
-import Header from "../../components/Header";
+import Title from "../../components/Title";
 import Products from "../../components/Products";
 import Form from "../../components/Form";
 
@@ -10,11 +10,11 @@ export default function Home() {
         <Container maxWidth="xl">
             <Box mt={4}>
                 {/* Cabeçalho para a seção de produtos */}
-                <Header title="Produtos" />
+                <Title title="Produtos" />
                 {/* Componente de exibição de produtos */}
                 <Products />
                 {/* Cabeçalho para a seção de dados do cliente */}
-                <Header title="Dados do Cliente" />
+                <Title title="Dados do Cliente" />
                 {/* Componente de formulário */}
                 <Form />
             </Box>
